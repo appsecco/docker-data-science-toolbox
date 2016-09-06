@@ -16,7 +16,7 @@ Here is the blog post to know more about this [docker-data-science-toolkit]()
 
 ### How to use docker container
 
-The simple and quick way to use this `docker-dst` is as follows.
+The simple and quick way to use this `data-science-toolkit` is as follows.
 
 **Softwares required to use docker container**
 
@@ -62,6 +62,11 @@ docker run -v `pwd`:/data -it data-science-toolkit sh
 ```
 
 - Then start working with your data science operations
+
+
+### Docker-Data-Science-Toolkit in Action
+
+![docker-data-science-toolkit](images/docker-dst.png)
 
 Please feel free to make a pull request or tweet to me [@madhuakula](https://twitter.com/madhuakula) for improvements and suggestions
 
