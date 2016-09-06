@@ -68,5 +68,10 @@ docker run -v `pwd`:/data -it data-science-toolkit sh
 
 ![docker-data-science-toolkit](images/docker-dst.png)
 
+
+### To-Do list
+
+Please have a look at [to-do list](tool-list.md)
+
 Please feel free to make a pull request or tweet to me [@madhuakula](https://twitter.com/madhuakula) for improvements and suggestions
 
