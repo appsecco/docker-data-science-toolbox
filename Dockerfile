@@ -1,6 +1,6 @@
 # Data Science Tool set in a Container
 #
-# docker run -v `pwd`:/data -it madhuakula/dst sh
+# docker run -v `pwd`:/data -it appsecco/data-science-toolkit sh
 #
 
 FROM alpine:latest
