@@ -1,7 +1,7 @@
 
-# Docker Container for Data Science Toolkit (DST)
+# Docker Container for Data Science Toolbox (DST)
 
-![Docker-Data-Science-Toolkit](images/dst.png)
+![Docker-Data-Science-Toolbox](images/dst.png)
 
 This docker container is to make all data science tools available in a container to start your data science work in seconds.
 
@@ -12,11 +12,11 @@ More details about the project
 
 Before moving to know about What, Why and How to use DST. I wanted to acknowledge [Jeroen Janssens](http://jeroenjanssens.com) for such a wonderful tool kit for data science.
 
-Here is the blog post to know more about this [docker-data-science-toolkit]()
+Here is the blog post to know more about this [docker-data-science-toolbox]()
 
 ### How to use docker container
 
-The simple and quick way to use this `data-science-toolkit` is as follows.
+The simple and quick way to use this `data-science-toolbox` is as follows.
 
 **Softwares required to use docker container**
 
@@ -24,16 +24,16 @@ The simple and quick way to use this `data-science-toolkit` is as follows.
 
 #### Steps to use container
 
-- Pull the `data-science-toolkit` image from the [docker hub](https://hub.docker.com/r/appsecco/data-science-toolkit)
+- Pull the `data-science-toolbox` image from the [docker hub](https://hub.docker.com/r/appsecco/data-science-toolbox)
 
 ```
-docker pull appsecco/data-science-toolkit
+docker pull appsecco/data-science-toolbox
 ```
 
 - Use the docker container with interactive shell and persistent storage from host system
 
 ```
-docker run -v `pwd`:/data -it appsecco/data-science-toolkit sh
+docker run -v `pwd`:/data -it appsecco/data-science-toolbox sh
 ```
 
 - Then start working with your data science operations
@@ -44,29 +44,29 @@ docker run -v `pwd`:/data -it appsecco/data-science-toolkit sh
 - Clone the git repository 
 
 ```
-git clone https://github.com/appsecco/docker-data-science-toolkit.git
+git clone https://github.com/appsecco/docker-data-science-toolbox.git
 ```
 
 - Start the build by running below command
 
 
 ```
-cd docker-data-science-toolkit
-docker build -t data-science-toolkit .
+cd docker-data-science-toolbox
+docker build -t data-science-toolbox .
 ```
 
 - Then start the container by running
 
 ```
-docker run -v `pwd`:/data -it data-science-toolkit sh
+docker run -v `pwd`:/data -it data-science-toolbox sh
 ```
 
 - Then start working with your data science operations
 
 
-### Docker-Data-Science-Toolkit in Action
+### Docker-Data-Science-Toolbox in Action
 
-![docker-data-science-toolkit](images/docker-dst.png)
+![docker-data-science-toolbox](images/docker-dst.png)
 
 
 ### To-Do list
