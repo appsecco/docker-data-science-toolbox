@@ -64,7 +64,7 @@ docker run -v `pwd`:/data -it data-science-toolbox sh
 - Then start working with your data science operations
 
 
-### Docker-Data-Science-Toolkit in Action
+### Docker-Data-Science-Toolbox in Action
 
 ![docker-data-science-toolbox](images/docker-dst.png)
 
