@@ -1,10 +1,10 @@
 # Data Science Tool set in a Container
 #
-# docker run -v `pwd`:/data -it appsecco/data-science-toolkit sh
+# docker run -v `pwd`:/data -it appsecco/data-science-toolbox sh
 #
 
 FROM alpine:latest
-MAINTAINER  Madhu Akula <madhu.akula@hotmail.com>
+MAINTAINER  Madhu Akula <madhu@appsecco.com>
 
 RUN apk --no-cache add py-pip groff bash bc git curl \
 		coreutils imagemagick findutils grep man \
