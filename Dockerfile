@@ -1,19 +1,16 @@
 # Data Science Tool set in a Container
-#
 # docker run -v `pwd`:/data -it appsecco/data-science-toolbox sh
-#
 
 FROM alpine:latest
-MAINTAINER  Madhu Akula <madhu@appsecco.com>
+LABEL MAINTAINER="Madhu Akula"
 
 RUN apk --no-cache add py-pip groff bash bc git curl \
 		coreutils imagemagick findutils grep man \
 		less parallel p7zip nodejs-lts sudo \
 		sed tar tree unrar unzip jq
 
-RUN pip install awscli nose bigmler csvkit
-
-RUN npm install -g cowsay json2csv xml2json-command
+RUN pip install awscli nose bigmler csvkit && 
+    npm install -g cowsay json2csv xml2json-command
 
 COPY scripts/body /usr/local/bin/body
 COPY scripts/cols /usr/local/bin/cols
